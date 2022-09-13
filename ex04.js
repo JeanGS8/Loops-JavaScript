@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 let num=0, pessoasCalmas=0; mulheresNervosas=0, homensAgressivos=0, outrosCalmos=0, mais40Nervoso=0, menos18Calmo=0;
-while(num < 5){
+while(num < 150){
     let idade = Number(prompt('Digite sua idade: '));
     let sexo = Number(prompt('Digite seu sexo (1-feminino / 2-masculino / 3-Outros): '));
     let personalidade = Number(prompt('Você é calmo, nervoso ou agressivo? (1-calma / 2-nervosa / 3-agressiva): '));
